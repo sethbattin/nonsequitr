@@ -1,0 +1,30 @@
+
+a.nonsequitr {
+    color:purple;
+    display:block;
+    height:40px;
+}
+
+div.nonsequitr {
+    display:none;
+    position:relative;
+    padding:15px ;
+    margin-bottom: 24px;
+    background-color: #ddd;
+}
+div.nonsequitr p {
+    margin: 0;
+    background-color: #eee;
+    padding:5px;
+}
+div.nonsequitr .nonsequitr-close {
+    color: #ddd;
+    position: absolute;
+    right: 10px;
+    font-size: x-small;
+    top: 0px;
+    transition: color 1s;
+}
+div.nonsequitr:hover .nonsequitr-close {
+    color:#444;
+}
